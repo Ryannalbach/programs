@@ -23,7 +23,7 @@ using namespace std; // This is the standard library
 
 int main() {
     // Seed the random number generator
-    srand(time(0));
+    srand(time(0)); //using time will generate a new random number each time
 
     // Generate a random number between 1 and 100
     int randomNumber = (rand() % 100) + 1; 
@@ -66,4 +66,3 @@ int main() {
 
     return 0; // Ends the program
 }
-
